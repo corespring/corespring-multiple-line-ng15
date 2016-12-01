@@ -1,0 +1,50 @@
+{
+  "pies": [
+    {
+      "id": "1",
+      "pie": {
+        "name": "corespring-multiple-line-ng15",
+        "version": "1.0.0"
+      },
+      "correctResponse": [{"equation":"3x+3"}],
+      "allowPartialScoring": false,
+      "partialScoring" : [
+        {}
+      ],
+      "feedback" :  {
+        "correctFeedbackType": "none",
+        "partialFeedbackType": "none",
+        "incorrectFeedbackType": "none"
+      },
+      "model" : {
+        "config": {
+          "graphTitle": "",
+          "graphWidth": 500,
+          "graphHeight": 500,
+          "sigfigs": -1,
+          "showCoordinates": true,
+          "showPointLabels": true,
+          "showInputs": true,
+          "showAxisLabels": true,
+          "showFeedback": true,
+          "exhibitOnly": false,
+          "domainLabel": "",
+          "domainMin": -10,
+          "domainMax": 10,
+          "domainStepValue": 1,
+          "domainSnapValue": 1,
+          "domainLabelFrequency": 1,
+          "domainGraphPadding": 50,
+          "rangeLabel": "",
+          "rangeMin": -10,
+          "rangeMax": 10,
+          "rangeStepValue": 1,
+          "rangeSnapValue": 1,
+          "rangeLabelFrequency": 1,
+          "rangeGraphPadding": 50,
+          "lines": [{ "id": 1, "equation": "", "initialLine": "", "label": "", "colorIndex": 0 }]
+        }
+      }
+    }
+  ]
+}
