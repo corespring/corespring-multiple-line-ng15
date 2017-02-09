@@ -1,22 +1,26 @@
 {
-  "pies": [
+  "elements": {
+    "corespring-multiple-line-ng15": "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "pie": {
-        "name": "corespring-multiple-line-ng15",
-        "version": "1.0.0"
-      },
-      "correctResponse": [{"equation":"3x+3"}],
+      "element": "corespring-multiple-line-ng15",
+      "correctResponse": [
+        {
+          "equation": "3x+3"
+        }
+      ],
       "allowPartialScoring": false,
-      "partialScoring" : [
+      "partialScoring": [
         {}
       ],
-      "feedback" :  {
+      "feedback": {
         "correctFeedbackType": "none",
         "partialFeedbackType": "none",
         "incorrectFeedbackType": "none"
       },
-      "model" : {
+      "model": {
         "config": {
           "graphTitle": "",
           "graphWidth": 500,
@@ -42,7 +46,15 @@
           "rangeSnapValue": 1,
           "rangeLabelFrequency": 1,
           "rangeGraphPadding": 50,
-          "lines": [{ "id": 1, "equation": "", "initialLine": "", "label": "", "colorIndex": 0 }]
+          "lines": [
+            {
+              "id": 1,
+              "equation": "",
+              "initialLine": "",
+              "label": "",
+              "colorIndex": 0
+            }
+          ]
         }
       }
     }

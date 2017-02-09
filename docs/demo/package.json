@@ -1,16 +1,21 @@
 {
-  "name": "tmp",
+  "name": "tmp-client-package",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "babel-core": "^6.17.0",
-    "babel-loader": "^6.2.5",
-    "webpack": "2.1.0-beta.21",
-    "style-loader": "^0.13.1",
-    "css-loader": "^0.25.0",
     "corespring-multiple-line-ng15": "../..",
-    "pie-controller": "PieLabs/pie-controller#develop",
-    "pie-player": "PieLabs/pie-player#develop",
-    "pie-control-panel": "PieLabs/pie-control-panel#develop"
+    "pie-player": "~2.1.0",
+    "pie-controller": "~2.0.0",
+    "pie-control-panel": "~1.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "~6.16.0",
+    "less-loader": "^2.2.3",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "webpack": "2.2.0-rc.3",
+    "style-loader": "^0.13.1"
   }
 }
